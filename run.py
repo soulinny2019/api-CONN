@@ -30,7 +30,7 @@ if __name__ == '__main__':
             methods=site.routes[route]['methods'],
         )
 
-    # Set up the backend API routes
+    # Set up the backend API routes contibus CHATGPT API 
     backend_api = Backend_Api(bp, config)
     for route in backend_api.routes:
         bp.add_url_rule(
